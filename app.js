@@ -1,6 +1,8 @@
 const wrapper = document.querySelector(".sliderWrapper")
 const menuItems = document.querySelectorAll(".menuItem")
 
+
+
 /// Slider Transform
 
 menuItems.forEach((item,index) => {

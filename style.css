@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -186,7 +188,9 @@ text-align: center;
 }
 
 .productImg {
-    width: 50%;
+    width: 30%;
+    height: 50%;
+    left: 10%;
 }
 
 .productDetails {
@@ -245,4 +249,40 @@ text-align: center;
 .productButton:hover {
     background-color: white;
     color: #000;
+}
+
+.payment {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.payTitle{
+    font-size: 20px;
+    color: gray;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payInput {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+}
+
+.payInput::placeholder {
+    color: rgb(148, 147, 147);
 }

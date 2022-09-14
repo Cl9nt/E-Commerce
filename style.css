@@ -384,7 +384,7 @@ label {
     cursor: pointer; 
 }
 
-.footer {
+footer {
     display: flex;
 }
 
@@ -404,12 +404,41 @@ label {
     list-style: none;
 }
 
-.fmenuItem {
+.fMenuItem {
     margin-bottom: 10px;
     color: gray;
     cursor: pointer;
 }
 
 .footerRight {
-    flex: 1;
+    flex: 1; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    left: 30;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: #000;
+    color: white;
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px; 
+  margin-right: 10px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
 }

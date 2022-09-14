@@ -17,7 +17,7 @@
 <body>
 <!-- Navigation Bar -->
 
-<nav> 
+<nav id="navbar"> 
     <div class="navTop">
 
         <div class="navItem">
@@ -38,11 +38,11 @@
     </div>
 
     <div class="navBottom">
-        <h3 class="menuItem">CEREAL</h3>
-        <h3 class="menuItem">VEGES</h3>
-        <h3 class="menuItem">FRUITS</h3>
-        <h3 class="menuItem">MILK</h3>
-        <h3 class="menuItem">TEA</h3>
+        <h3 class="fmenuItem">CEREAL</h3>
+        <h3 class="fmenuItem">VEGES</h3>
+        <h3 class="fmenuItem">FRUITS</h3>
+        <h3 class="fmenuItem">MILK</h3>
+        <h3 class="fmenuItem">TEA</h3>
     </div>
 
 </nav>
@@ -151,19 +151,109 @@
     <div class="payment">
         <h1 class="payTitle">Personal Information</h1>
         <label>Name and Surname</label>
-        <input type="text" placeholder="Jogn Doe" class="payInput">
+        <input type="text" placeholder="John Doe" class="payInput">
         <label>Phone Number</label>
         <input type="text" placeholder="+254 708 340 063" class="payInput">
         <label>Address</label>
-        <input type="text" placeholder="Jogn Doe" class="payInput">
+        <input type="text" placeholder="00100 Nairobi" class="payInput">
 
         <h1 class="payTitle">Card Information</h1>
         <div class="cardIcons">
             <img src="./img/visa.png" alt="" class="cardIcon">
-            <img src="./img/mastercard.png" alt="" class="cardIcon">
+            <img src="./img/master.png" alt="" class="cardIcon">
         </div>
+        <input type="password" class="payInput" placeholder="Card Number">
+        <div class="cardInfo">
+            <input type="text" class="payInput sm"  placeholder="month">
+            <input type="text" class="payInput sm"  placeholder="year">
+            <input type="text" class="payInput sm"  placeholder="day">
+        </div>
+        <button class="payButton">Checkout</button>
+        <span class="close">X</span>
     </div>
 </div>
+<div class="gallery">
+    <div class="galleryItem">
+        <h1 class="galleryTitle">Moment o f Truth </h1>
+        <img src="./img/pexel1.jpg" alt="" class="galleryImg">
+    </div>
+    <div class="galleryItem"> 
+        <img src="./img/pexel2.jpg" alt="" class="galleryImg">
+        <h1 class="galleryTitle"> You know my steez </h1>
+    </div>
+    <div class="galleryItem">
+        <h1 class="galleryTitle"> Half God, Half Amazing </h1>
+        <img src="./img/pexel3.jpg" alt="" class="galleryImg">
+    </div>
+</div>
+<div class="newStyle">
+    <div class="newSItem">
+        <img src="./img/pexel4.jpg" alt="" class="newSImg">
+    </div>
+    <div class="newSItem">
+        <h3 class="newSTitlesm"> New Arrivals</h3>
+        <h1 class="newSTitle"> New Arrivals Today</h1>
+        <h1 class="newSTitle"> New Arrivals Yesterday</h1>
+        <a href="#navbar">
+            <button class="newSButton"> Choose </button>
+        </a>
+    </div>
+    <div class="newSItem">
+        <img src="./img/pexel5.jpg" alt="" class="newSImg">
+    </div>
+</div>
+
+<footer>
+    <div class="footerLeft">
+         <div class="footerMenu">
+            <h1 class="fmenuTitle">About Us</h1>
+                <ul class="fmenuList">
+                    <li class="fmenuItem">Company</li>
+                    <li class="fmenuItem">Contact</li>
+                    <li class="fmenuItem">Careers</li>
+                    <li class="fmenuItem">Affiliates</li>
+                    <li class="fmenuItem">Stores</li>
+                </ul>
+         </div>
+         <div class="footerMenu">
+            <h1 class="fmenuTitle">Useful Links</h1>
+                <ul class="fmenuList">
+                    <li class="fmenuItem">Support</li>
+                    <li class="fmenuItem">Refund</li>
+                    <li class="fmenuItem">FAQ</li>
+                    <li class="fmenuItem">Feedback</li>
+                    <li class="fmenuItem">Stories</li>
+                </ul>
+         </div> 
+         <div class="footerMenu">
+            <h1 class="fmenuTitle">Products</h1>
+                <ul class="fmenuList">
+                    <li class="fmenuItem">Farm Produce</li>
+                    <li class="fmenuItem">Art</li>
+                    <li class="fmenuItem">Music</li>
+                    <li class="fmenuItem">Movies</li>
+                    <li class="fmenuItem">Tenders</li>
+                </ul>
+         </div>
+    </div>
+    <div class="footerRight">
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle"> Subscribe </h1>
+            <div class="fMail">
+                <input type="text" placeholder="your@email.com" class="fInput">
+                <button class="fButton">Join</button>
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle">Follow Me</h1>
+            <div class="fIcons">
+                
+            </div>
+        </div>
+    </div>
+
+</footer>
+ <!-- For my Functions, Buttons, Animation -->
 <script src="app.js"></script>
 </body>
 </html>

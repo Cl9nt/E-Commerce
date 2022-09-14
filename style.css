@@ -262,7 +262,7 @@ text-align: center;
     right: 0;
     margin: auto;
     padding: 10px 50px;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -285,4 +285,131 @@ label {
 
 .payInput::placeholder {
     color: rgb(148, 147, 147);
+}
+
+.cardIcon {
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.cardIcons {
+    display: flex;
+}
+
+.cardIcon {
+    margin-right: 10px;
+}
+
+.cardInfo {
+    display: flex ;
+     justify-content: space-between;
+}
+
+.sm {
+    width: 30%;
+}
+
+.payButton {
+    position: absolute;
+    height: 40px; 
+    bottom: -40;
+    width: 100%;
+    left: 0;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.gallery {
+    display: flex;
+    padding: 50px;
+}
+
+.galleryItem {
+    flex: 1;
+    padding: 50px;
+}
+
+.galleryImg {
+     width: 100%;
+}
+
+.newStyle {
+    display: flex;
+}
+
+.newSItem {
+    flex: 1;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.newSImg {
+    width: 100%;
+    height: 500px;
+}
+
+.newSTitle {
+    font-size: 40px;
+}
+
+.newSButton {
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer; 
+}
+
+.footer {
+    display: flex;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fmenuTitle {
+      font-size: 16px;
+}
+
+.fmenuList {
+    padding: 0;
+    list-style: none;
+}
+
+.fmenuItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
 }
